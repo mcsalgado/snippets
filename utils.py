@@ -13,6 +13,9 @@ def clamp(n, minimum, maximum):
     return ret
 
 
+# NOTE(mcsalgado): the python docs has a recipe with a similar implementation
+# of this function called 'grouper'
+# https://docs.python.org/3.7/library/itertools.html#itertools-recipes
 def partition(iterable, size):
     iterator = iter(iterable)
     while True:
