@@ -1,4 +1,5 @@
 cat = ''.join
+identity = lambda x: x
 
 
 def prod(ns):
