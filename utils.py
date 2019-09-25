@@ -31,6 +31,11 @@ def partition(iterable, size):
         yield ret
 
 
+def mapt(func, *iterables):
+    ret = tuple(map(func, *iterables))
+    return ret
+
+
 def manhattan_neighbors(coordinate):
     x, y = coordinate
 
